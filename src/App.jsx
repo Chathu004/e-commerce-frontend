@@ -26,9 +26,9 @@ function App() {
         <Route path='/gifts' element={<Gift/>}></Route>
        
 
-        <Route path='/' element={<Login/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
         <Route path='/signUp' element={<SignUp/>}></Route>
-        <Route path='/home' element={<Home/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
         <Route path='/subCategories' element={<SubCategory/>}></Route>
         <Route path='subCategories/:name/product' element={<Product/>}></Route>
         <Route path='/order' element={<Order/>}></Route>
