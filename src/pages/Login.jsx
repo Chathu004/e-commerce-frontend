@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ImageForLogin from '../assets/login.jpg'
-import Logo from '../../public/Logo.png'
+import Logo from '../../public/Nlogo.jpg'
 import { useDispatch, useSelector } from 'react-redux';
 const Login = () => {
     const dispatch=useDispatch();
@@ -48,7 +48,7 @@ const Login = () => {
                 <img src={ImageForLogin} className="w-[80%]" alt="Stylish women" />
             </div>
             <div className="flex flex-col gap-8 h-full items-center justify-center w-[45%] mt-[-2%] lg:ml-[-3%] max-lg:w-screen">
-                <img src={Logo} className='w-40' alt='logo'/>
+                <img src={Logo} className='w-30' alt='logo'/>
                 <h1 className="dark:text-white tracking-[8px] text-lg max-sm:hidden">WELCOME TO COOKIE STORE</h1>
                 <form className=" w-[70%] mt-5 flex flex-col" onSubmit={(e) => submitForm(e)} noValidate >
                     <div className="mb-6">

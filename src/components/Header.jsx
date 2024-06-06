@@ -37,7 +37,7 @@ const Header = (props) => {
             <div className="flex w-1/3 justify-end items-center p-5 gap-5 max-lg:hidden dark:text-white mr-5 text " >
                 <motion.img whileHover={{scale:1.5}}   src={cart} className={` size-5 hidden dark:flex `} onClick={(e)=>handleClick(e)}  alt="" />
                 <motion.img whileHover={{scale:1.5}} src={CartImage} className='h-6 mr-4 dark:hidden' onClick={(e)=>handleClick(e)}  alt='cart' />
-                <motion.p whileHover={{scale:1.2}} className='mr-4 hover:underline  font-bold'><Link to='/'>Sign in</Link></motion.p>
+                <motion.p whileHover={{scale:1.2}} className='mr-4 hover:underline  font-bold'><Link to='/login'>Sign in</Link></motion.p>
                 
             </div>
             <div className='lg:hidden p-5  '>
